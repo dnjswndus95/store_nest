@@ -23,3 +23,9 @@ export class CustomException extends HttpException {
     return this.code;
   }
 }
+
+// Response example
+// {
+//     "code": "RESOURCE_NOT_FOUND",
+//     "message": "리소스가 존재하지 않습니다."
+// }
